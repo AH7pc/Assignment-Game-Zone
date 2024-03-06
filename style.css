@@ -1,3 +1,130 @@
 body{
-    
+    margin: 0px;
+    background-color: aqua;
+}
+/* Header part */
+header{
+    height: 90px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 10px rgb(124, 122, 122);
+}
+.title{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.title> .logo, .h1{
+    margin: 0 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 20px;
+}
+.manu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.manu>li{
+    margin: 0 10px;
+    color: black;
+}
+.manu>li>a{
+    text-decoration: none;
+}
+.logo{
+    width: 50px;
+    height: 30px;
+}
+.h1{
+    color: rgb(255, 71, 200);
+}
+.flw{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(234, 236, 238);
+    height: 40px;
+    padding: 0 10px;
+}
+.flw> p, img{
+    margin: 0 5px;
+}
+.flw>p>a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Responsive */
+
+@media screen and (min-width:0px) and (max-width:320px) {
+    body{
+        background-color: white;
+    }
+    /* header part  */
+    header{
+        display: block;
+        box-shadow: none;
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: none;
+        position: relative;
+        right: 80px;
+    }
+    .title> .logo, .h1{
+        margin: 0 5px;
+    }
+    nav{
+        display: inline-block;
+    }
+    .icon{
+        width: 20px;
+    }
+    .manu{
+        display: block;
+        list-style: none;
+        position: relative;
+        text-align: center;
+    }
+    .manu>li{
+        margin: 20px 0px;
+        color: black;
+        position: relative;
+        left: 20px;
+    }
+    .manu>li>a{
+        text-decoration: none;
+    }
+    .logo{
+        width: 50px;
+        height: 30px;
+    }
+    .h1{
+        color: rgb(255, 71, 200);
+    }
+    .flw{
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        background-color: rgb(234, 236, 238);
+        height: 40px;
+        padding: 0 10px;
+    }
+    .flw> p, img{
+        margin: 0 5px;
+    }
+    .flw>p>a{
+        text-decoration: none;
+        color: black;
+    }
 }

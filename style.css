@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 /* Header part */
 header{
@@ -31,6 +31,7 @@ nav{
     display: flex;
     align-items: center;
     list-style: none;
+    margin-right: 200px;
 }
 .manu>li{
     margin: 0 10px;
@@ -60,6 +61,19 @@ nav{
 .flw>p>a{
     text-decoration: none;
     color: black;
+}
+
+/* Banner section */
+.banner{
+    display: flex;
+    
+}
+.bn1{
+    background-image: url("images/Group\ 14.png");
+    width: 50%;
+}
+.bn2{
+    width: 50%;
 }
 
 /* Responsive */
